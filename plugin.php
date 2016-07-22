@@ -14,7 +14,6 @@
 
 $data = get_file_data( __FILE__, array( 'version' => 'Version','textdomain' => 'Text Domain' ) );
 define( 'PLUGINNAME_VERSION', $data['version'] );
-define( 'PLUGINNAME_TEXTDOMAIN', $data['textdomain'] );
 define( 'PLUGINNAME_BASENAME', plugin_basename( __FILE__ ) );
 define( 'PLUGINNAME_URL', plugin_dir_url( __FILE__ ) );
 define( 'PLUGINNAME_DIR', plugin_dir_path( __FILE__ ) );
